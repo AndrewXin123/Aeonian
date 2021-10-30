@@ -9,6 +9,7 @@ Users of this website will provide their phone number, and our backend Node.js s
 
 # Accomplishments that we're proud of
 UI / UX Design
+
 Twilio integration
 
 # What's next for Aeonian
