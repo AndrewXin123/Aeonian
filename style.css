@@ -1,0 +1,200 @@
+/* CSS files add styling rules to your content */
+body {
+    background-color: #CCCCCC;
+    font-family: Georgia!important;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  input[type=button] {
+      font-family: Georgia;
+  
+  }
+  
+  #num {
+    margin: auto;
+  }
+  
+  .squares {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+      font-family : inherit;
+      font-size: 1em;
+  }
+  
+  .bYellow { 
+      height:200px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:#CBA367;
+      border:none;
+  }
+  
+  .bPurple { 
+      height:200px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:#5E4C5A;
+      border:none;
+  }
+  
+  .bBlue { 
+      height:200px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:#2875E2;
+      border:none;
+  }
+  
+  .bGreen { 
+      height:200px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:#048A81;
+      border:none;
+  }
+  
+  .bDarkBlue { 
+      height:200px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:#1D3557;
+      border:none;
+  }
+  .bRed { 
+      height:200px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:red;
+      border:none;
+  }
+  
+  .settings { 
+      height:100px;
+      width:200px;
+      margin:10px 10px 10px 10px;
+      font-size:30px;
+      white-space: normal;
+      transition:background 0.5s ease-in;
+      cursor:pointer;
+      color:white;
+      background-color:#7E7E7E;
+      border:none;
+  }
+  
+  .bYellow:hover {
+     background-color:#FFE0AD!important;
+  }
+  
+  .bPurple:hover {
+     background-color: #D3BCCC!important;
+  }
+  
+  .bBlue:hover {
+     background-color: #C2DFFF!important;
+  }
+  
+  .bGreen:hover {
+     background-color: #a1f7d9!important;
+  }
+  
+  .bDarkBlue:hover {
+     background-color: #A0C9E4!important;
+  }
+  
+  .bRed:hover {
+     background-color: pink!important;
+  }
+  
+  .settings:hover {
+     background-color:black!important;
+  }
+  
+  input[type=text] {
+    width:30%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(118, 131, 209, 0.055);
+    height:20px;
+  }
+  
+  
+  /* CSS */
+  .send {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+  }
+  
+  .send:disabled {
+    pointer-events: none;
+  }
+  
+  .send:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .send:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  

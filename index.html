@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script type = "text/javascript">
+         <!--
+            function Energy() {
+               alert ("Current Electric Charges: $197.74\nElectric Adjustments: $-39.42\nCurrent Gas Charges: $69.89\n\nTotal Amount Due: $562.93");
+            }
+            function Info() {
+               alert ("Name: Adam Yang\nAge: 87\nAddress: 18392 Summer Rd, Los Angeles CA, 93840\nLast 4 digits of CC: 3847\nEmail: adam.yang@gmail.com\nPreferred method of contact: Phone");
+            }
+            function Contacts() {
+              alert ("Your Contacts\nName: Christine Yang\nRelationship: Daughter\nPhone Number: (749) 284-2371\nTags: Emergency Contact\nNotifications: Urgent action\n\nName: Christopher Yang\nRelationship: Son\nPhone Number: (749) 284-1837\nTags: Emergency Contact\nNotifications: Completed bill payments\n\nName: Sarah Yang\nRelationship: Wife\nPhone Number: (749) 284-1938\nNotifications: None\n\nName: Joseph Gonzalez\nRelationship: Accountant\nPhone Number: (223) 928-0181")
+            }
+         //-->
+      </script>  
+</head>
+
+
+<body>
+		<div class="squares">
+			<input class="bYellow" type="button" value="PG&E Energy Statement" onclick="Energy();" id: "bYellow"/>
+			<input class="bPurple" type="button"  value="Golden State Water Company Bill"/>
+      <input class="bBlue" type="button" value="Aetna Health Insurance"/>
+			<input class="bGreen" type="button"  value="Nationwide Life Insurance"/>
+      <input class="bDarkBlue" type="button" value="Alameda County Property Tax"/>
+		</div>
+    <div class="squares">
+			<input class="bPurple" type="button" value="Brookdale Senior Living Invoice"/>
+			<input class="bGreen" type="button"  value="Verizon Internet Service Charge"/>
+			<input class="bDarkBlue" type="button"  value="Social Security Federal Tax"/>
+      <input class="bRed" type="button" value="Drugz and Hookerz Urgent!!"/>
+      <input class="bBlue" type="button" value="Norwegian Cruise Line Invoice"/>
+		</div>
+    <div class="squares">
+      <input class="settings" type="button" value="Your Information" onclick="Info();"/>
+			<input class="settings" type="button"  value="Your Contacts" onclick="Contacts();"/>
+      <input class="settings" type="button" value="Financial Resources"/>
+			<input class="settings" type="button"  value="Contact Us"/>
+      <input class="settings" type="button" value="Settings"/>
+    </div>
+    <br><br>Add Phone Number for Twilio Notifications:<br><br>
+
+    <input type='text' id='num' style="margin: auto; display: block; font-size: 30px;text-align: center;"/>
+
+    
+     <script>
+       function send () {
+          var number = {
+           value: document.getElementById('num').value
+         }
+         var xhr = new window.XMLHttpRequest()
+         xhr.open('POST', '/num', true)
+         xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8')
+         xhr.send(JSON.stringify(number))
+       
+     </script>
+     <br>
+     
+    </nav> 
+    <script src="script.js"></script>
+    
+<button class="send" role="button">Send</button>
+
+
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+</html>
+</body>
+</html>
