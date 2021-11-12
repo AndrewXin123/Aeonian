@@ -1,5 +1,5 @@
 # Aeonian
-Aeonian is a web service that aims to automate many financial tasks to help the elderly manage their finances, improving their quality of life after retirement with a simple and accessible UI. Created the Cal Hacks 8.0 Hackathon from October 22-24, 2021.
+Aeonian is a web service that aims to automate many financial tasks to help the elderly manage their finances, improving their quality of life after retirement with a simple and accessible UI. Created during the Cal Hacks 8.0 Hackathon from October 22-24, 2021.
 
 The First Place Winner of the Cal Hacks 8.0 Blackrock Financial Wellbeing Challenge with teammates Alisha Chen, Daniel Duan, Kerrine Tai, and Andrew Zhang.
 
